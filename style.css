@@ -59,5 +59,64 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+/* noto-serif */
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 /* ==================================================================================================== */
+/* -----------------------------------main------------------------------------------------------------ */
+/* --------------------------------section-1--------------------------------------------------------- */
+.abba-1{
+  display: flex;
+  margin: 100px 250px 100px 200px;
+}
+
+.frind-2{
+  font-weight: bold;
+  font-size: 70px;
+  margin-bottom: -5px;
+}
+.frend-clor{
+  color: #E95A08;
+}
+.text-1{
+  color: #6B7280;
+  font-size: 23px;
+  font-weight: 400;
+}
+.part-1{
+  margin-right: 290px;
+}
+/*///////////////////////////////////Responsive/////////////////////////////////////////////////*/
+  @media screen and (max-width: 576px){
+
+.abba-1{
+    flex-direction: column-reverse;
+  margin: 0px;
+}
+
+.frind-2{
+  /* font-weight: bold; */
+  font-size: 30px;
+  margin-bottom: 5px;
+  width: 250px;
+}
+.frend-clor{
+  color: #E95A08;
+}
+.text-1{
+  color: #6B7280;
+  font-size: 15px;
+  font-weight: 400;
+  width: 400px;
+}
+.flowr-img{
+  width: 100%;
+}
+
+}
+/* ================================================================================================= */
