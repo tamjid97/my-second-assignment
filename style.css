@@ -19,14 +19,37 @@
   .all-nav{
     margin: 50px 910px;
     display: grid;
-    grid-template-columns: 96px 96px 96px 36px 96px ;
+    grid-template-columns: 96px 96px 96px 35px 35px 96px;
   }
   .buy-cart{
-    margin-top: -5px;
+    margin-top: -6px;
   }
   /*///////////////////////////////////Responsive/////////////////////////////////////////////////*/ 
+@media screen and (max-width: 576px) {
+  .img-logo{
 
+  }
+  .head {
+  display: flex;
+  margin: 5px;
+  }
 
+.shop-aboutus a {
+  display: none;
+}
+.home{
+    display: none;
+  }
+
+  .all-nav{
+    margin: 50px 2px;
+    display: grid;
+    grid-template-columns: 50px 50px 35px 35px 20px;
+  }
+  .buy-cart{
+    margin-top: -6px;
+  }
+}
 /* =====================================================================================================*/
 
 /*-----------------------------------typography-------------------------------------------------------- */
