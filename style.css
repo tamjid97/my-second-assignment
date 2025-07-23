@@ -120,3 +120,57 @@
 
 }
 /* ================================================================================================= */
+
+ /* ---------------------------------------section-2----------------------------------------------------------- -- */
+.our{
+  font-weight: bold;
+  font-size: 50px;
+  margin: 200px 200px 100px 700px;
+
+}
+.our-1{
+  font-size: 22px;
+  font-weight: 400;
+  color: #6B7280;
+  margin: -90px 50px 50px 420px;
+}
+  .bbr{
+    font-size: 22px;
+  font-weight: 400;
+  color: #6B7280;
+  margin: -45px 50px 50px 520px;
+}
+.jar-card{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 80px 130px 50px 200px;
+}
+.lily{
+  font-size: 22px;
+  font-weight: 500;
+  color: #111111;
+  margin: 25px 70px;
+}
+.usd{
+  font-size: 22px;
+  font-weight: bold;
+  color: #111111;
+  margin: -15px 95px;
+}
+  .add-btn{
+    margin: 40px 3px;
+    width: 270px;
+    height: 50px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    
+  }
+  .add-btn:hover {
+      background-color: #B6F500; 
+      color: #111111;
+    }
+.add-btn:hover {
+  cursor: pointer;
+}
+  /* ============================================================================================================ */
