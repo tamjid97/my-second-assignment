@@ -102,13 +102,10 @@
   .para img {
   max-width: 425px;
 }
-  
-
 .abba-1{
     flex-direction: column-reverse;
   margin: 0px;
 }
-
 .frind-2{
   /* font-weight: bold; */
   font-size: 30px;
@@ -124,30 +121,29 @@
   font-weight: 400;
   width: 400px;
 }
-
 }
-
-
 /* ================================================================================================= */
-
+/* ---------------------------------------section-2----------------------------------------------------------- -- */
 .product-section{
   max-width: 1200px;
   margin: auto;
   text-align: center;
 }
 h2{
-  font-size: 2rem;
+  font-size: 50px;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 .description{
-  color: #8987A1;
-  font-size: 1rem;
+  color: #6B7280;
+  font-size: 22px;
   margin-bottom: 30px;
+  font-weight: 400;
 }
 .product-grid{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 5px -5px;
 }
 .card{
   padding: 15px;
@@ -157,24 +153,23 @@ h2{
   max-width: 100%;
 }
 .card h3 {
-  font-size: 1.1rem;
+  font-size: 22px;
   margin: 10px 0 5px;
+  font-weight: 500;
 }
 .card .price {
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  font-size: 22px;
 }
 .card button {
-    /* border: none;
-    color: #FFFFFF;
-    background-color: #E95A08;
-    padding: 10px 15px; */
-margin: 40px 3px;
+margin: 20px 3px;
     width: 270px;
     height: 50px;
     border: none;
     color: #FFFFFF;
     background-color: #E95A08;
+    font-weight: bold;
     
 }
 .card button:hover {
@@ -188,28 +183,26 @@ margin: 40px 3px;
 @media (max-width: 480px) {
   .product-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* মোবাইলে ২টি কলাম */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 10px;
-    padding: 0 10px; /* পাশে একটু প্যাডিং */
+    padding: 0 10px;
   }
 
   .card {
     padding: 10px;
-    border-radius: 8px;
   }
 
   .card img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
   }
 
   h2 {
-    font-size: 1.4rem;
+    font-size: 25px;
   }
 
   .description {
-    font-size: 0.9rem;
+    font-size: 15px;
     padding: 0 10px;
   }
 
@@ -228,122 +221,35 @@ margin: 40px 3px;
   }
 }
 
- /* ---------------------------------------section-2----------------------------------------------------------- -- */
-.our{
-  font-weight: bold;
-  font-size: 50px;
-  margin: 200px 200px 100px 700px;
-
-}
-.our-1{
-  font-size: 22px;
-  font-weight: 400;
-  color: #6B7280;
-  margin: -90px 50px 50px 420px;
-}
-  .bbr{
-    font-size: 22px;
-  font-weight: 400;
-  color: #6B7280;
-  margin: -45px 50px 50px 520px;
-}
-.jar-card{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin: 80px 130px 50px 200px;
-}
-.lily{
-  font-size: 22px;
-  font-weight: 500;
-  color: #111111;
-  margin: 25px 70px;
-}
-.usd{
-  font-size: 22px;
-  font-weight: bold;
-  color: #111111;
-  margin: -15px 95px;
-}
-  .add-btn{
-    margin: 40px 3px;
-    width: 270px;
-    height: 50px;
-    border: none;
-    color: #FFFFFF;
-    background-color: #E95A08;
-    
-  }
-  .add-btn:hover {
-      background-color: #B6F500; 
-      color: #111111;
-    }
-.add-btn:hover {
-  cursor: pointer;
-}
-/*///////////////////////////////////Responsive/////////////////////////////////////////////////*/
-  @media screen and (max-width: 576px){
-    .our{
-  font-weight: bold;
-  font-size: 10px;
-  margin: 10px;
-
-}
-.our-1{
-  font-size: 22px;
-  font-weight: 400;
-  color: #6B7280;
-  margin: 20px;
-}
-  .bbr{
-    font-size: 22px;
-  font-weight: 400;
-  color: #6B7280;
-  margin: 20px;
-}
-.jar-card{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  max-width: calc(100% - 10px);
-
-}
-.lily{
-  font-size: 10px;
-  font-weight: 500;
-  color: #111111;
-  margin: 22px 20px;
-}
-.usd{
-  font-size: 12px;
-  font-weight: bold;
-  color: #111111;
-  margin: 2px;
-}
-  .add-btn{
-    margin: 20px 3px;
-    width: 100px;
-    height: 50px;
-    border: none;
-    color: #FFFFFF;
-    background-color: #E95A08;
-    
-  }
-  .add-btn:hover {
-      background-color: #B6F500; 
-      color: #111111;
-    }
-.add-btn:hover {
-  cursor: pointer;
-  }
-  .flowr-img{
-    max-width: 190px;
-    padding: 10px 0px;
-  }
-}
+ /* ================================================================================================= */
   /* ============================================================================================================ */
   /* ---------------------------------------section-3----------------------------------------------------------- -- */
+.abba-3{
+  display:flex;
+  
+}
+.img-15{
+  margin: 100px 50px 100px 350px;
+}
+.flor-abba{
+  margin: 100px 90px;
+}
+.flower-22{
+  font-size: 50px;
+  font-weight: bold;
+  margin: 30px 20px;
+}
+.list{
+  color: #6B7280;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 5px 250px 10px 15px;
+}
 .ttbb{
   width: 286px;
   height: 286px;
-  margin: -2000px 5000px 400px 250px;
+  position: relative;
+  top: -720px;
+  left: 350px;
 }
   /* ============================================================================================================ */
