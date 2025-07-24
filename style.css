@@ -26,9 +26,11 @@
   }
   /*///////////////////////////////////Responsive/////////////////////////////////////////////////*/ 
 @media screen and (max-width: 576px) {
-  .img-logo{
-
-  }
+    .img-logo img {
+    max-width: 63px;
+    max-height: 38px;
+    margin-top: 40px;
+    }  
   .head {
   display: flex;
   margin: 5px;
@@ -42,9 +44,9 @@
   }
 
   .all-nav{
-    margin: 50px 2px;
+    margin: 50px 85px;
     display: grid;
-    grid-template-columns: 50px 50px 35px 35px 20px;
+    grid-template-columns: 50px 50px 35px 35px 50px;
   }
   .buy-cart{
     margin-top: -6px;
@@ -73,6 +75,7 @@
 .abba-1{
   display: flex;
   margin: 100px 250px 100px 200px;
+  width: 100%;
 }
 
 .frind-2{
@@ -91,8 +94,15 @@
 .part-1{
   margin-right: 290px;
 }
+.para{
+  margin-right: 400px;
+}
 /*///////////////////////////////////Responsive/////////////////////////////////////////////////*/
   @media screen and (max-width: 576px){
+  .para img {
+  max-width: 425px;
+}
+  
 
 .abba-1{
     flex-direction: column-reverse;
@@ -114,12 +124,109 @@
   font-weight: 400;
   width: 400px;
 }
-.flowr-img{
-  width: 100%;
-}
 
 }
+
+
 /* ================================================================================================= */
+
+.product-section{
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+h2{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.description{
+  color: #8987A1;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+.product-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.card{
+  padding: 15px;
+  border-radius: 15px;
+}
+.card img {
+  max-width: 100%;
+}
+.card h3 {
+  font-size: 1.1rem;
+  margin: 10px 0 5px;
+}
+.card .price {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.card button {
+    /* border: none;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    padding: 10px 15px; */
+margin: 40px 3px;
+    width: 270px;
+    height: 50px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    
+}
+.card button:hover {
+      background-color: #B6F500; 
+      color: #111111;
+    }
+.card button:hover {
+  cursor: pointer;
+}
+/*///////////////////////////////////Responsive/////////////////////////////////////////////////*/
+@media (max-width: 480px) {
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* মোবাইলে ২টি কলাম */
+    gap: 10px;
+    padding: 0 10px; /* পাশে একটু প্যাডিং */
+  }
+
+  .card {
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+  }
+
+  .card .price {
+    font-size: 0.95rem;
+  }
+
+  .card button {
+    width: 100%;
+    padding: 8px;
+    font-size: 0.95rem;
+  }
+}
 
  /* ---------------------------------------section-2----------------------------------------------------------- -- */
 .our{
@@ -172,5 +279,71 @@
     }
 .add-btn:hover {
   cursor: pointer;
+}
+/*///////////////////////////////////Responsive/////////////////////////////////////////////////*/
+  @media screen and (max-width: 576px){
+    .our{
+  font-weight: bold;
+  font-size: 10px;
+  margin: 10px;
+
+}
+.our-1{
+  font-size: 22px;
+  font-weight: 400;
+  color: #6B7280;
+  margin: 20px;
+}
+  .bbr{
+    font-size: 22px;
+  font-weight: 400;
+  color: #6B7280;
+  margin: 20px;
+}
+.jar-card{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: calc(100% - 10px);
+
+}
+.lily{
+  font-size: 10px;
+  font-weight: 500;
+  color: #111111;
+  margin: 22px 20px;
+}
+.usd{
+  font-size: 12px;
+  font-weight: bold;
+  color: #111111;
+  margin: 2px;
+}
+  .add-btn{
+    margin: 20px 3px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    
+  }
+  .add-btn:hover {
+      background-color: #B6F500; 
+      color: #111111;
+    }
+.add-btn:hover {
+  cursor: pointer;
+  }
+  .flowr-img{
+    max-width: 190px;
+    padding: 10px 0px;
+  }
+}
+  /* ============================================================================================================ */
+  /* ---------------------------------------section-3----------------------------------------------------------- -- */
+.ttbb{
+  width: 286px;
+  height: 286px;
+  margin: -2000px 5000px 400px 250px;
 }
   /* ============================================================================================================ */
