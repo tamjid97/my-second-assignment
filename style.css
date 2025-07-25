@@ -103,7 +103,7 @@ body {
   margin-right: 400px;
 }
 /*///////////////////////////////////Responsive/////////////////////////////////////////////////*/
-  @media screen and (max-width: 576px){
+   @media screen and (max-width: 576px){
   .para img {
   max-width: 425px;
 }
@@ -113,7 +113,7 @@ body {
 }
 .frind-2{
   /* font-weight: bold; */
-  font-size: 30px;
+    font-size: 30px;
   margin-bottom: 5px;
   width: 250px;
 }
@@ -129,7 +129,11 @@ body {
 .part-1{
   margin-left: 20px;
 }
-  }
+  } 
+
+
+
+
 /* ================================================================================================= */
 /* ---------------------------------------section-2----------------------------------------------------------- -- */
 .product-section{
@@ -510,11 +514,12 @@ margin-left: -5px;
 @media (max-width: 576px) {
   .scarce {
     height: auto;
-    width: 430px;
+    width: 100%;
     padding: 60px 20px;
     background-position: center;
     margin-top: 20px;
     overflow-x: hidden;
+    box-sizing: border-box;
   }
 
   .join-co {
